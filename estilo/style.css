@@ -6,6 +6,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main {
+    height: 630px;  
+    background: url("../Logo/BG_2.jpg");
+    display: flex;
+    position: relative;
+}
+
+.gradiente {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 header {
     background-image: linear-gradient(to bottom, rgb(50, 50, 50), black);
 }
