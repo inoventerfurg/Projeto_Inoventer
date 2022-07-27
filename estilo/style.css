@@ -1,26 +1,36 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 body {
+    min-width: 100vh;
     font-family: sans-serif;
+    background-color: darkgrey;
     color: white;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(50, 50, 50), black);
 }
 
 .main {
     height: 630px;  
-    background: url("../Logo/BG_2.jpg");
+    background: url("../Logo/BG_2.jpg") no-repeat;
+    background-size: cover;
     display: flex;
     position: relative;
 }
 
 .gradiente {
     height: 80px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);    
     position: absolute;
     top: 0;
     left: 0;
@@ -28,6 +38,137 @@ body {
     bottom: 0;
 }
 
-header {
-    background-image: linear-gradient(to bottom, rgb(50, 50, 50), black);
+.logo { 
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;      
+}
+
+.logo:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
+.entrar {
+    font-family: 'Lato', sans-serif;
+    font-weight:bolder;
+    font-size: 1.5em;
+    margin: auto;
+    height: 50px;
+    width: 150px;    
+    background-color: #E2A518;
+    border: 1px solid #707070;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10.0cm;
+}
+
+.entrar:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
+.tel {
+    background-color: #E2A518;
+    border: 1px solid #707070;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 6.0cm;
+}
+
+.tel:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
+.email {
+    background-color: #E2A518;
+    border: 1px solid #707070;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4.0cm;
+}
+
+.email:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
+.whatsapp {
+    background-color: #E2A518;
+    border: 1px solid #707070;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2.0cm;
+}
+
+.whatsapp:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
+.cadastre-se { 
+    font-family: 'Lato', sans-serif;
+    font-weight:bolder;
+    font-size: 2.5em;
+    margin: auto;
+    height: 100px;
+    width: 320px;    
+    background-color: #E2A518;
+    border: 1px solid #707070;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 25.0cm;
+}
+
+.cadastre-se:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
 }
