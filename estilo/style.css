@@ -5,18 +5,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+
+header {
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 
 a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
-}
-
-a:hover {
-    opacity: 0.7;
 }
 
 body {
@@ -26,39 +26,14 @@ body {
     color: white;
 }
 
-header {
-    background-image: linear-gradient(to bottom, rgb(50, 50, 50), black);
-}
-
 .main {
     height: 100vh;  
-    background: url("../Logo/BG_2.jpg") no-repeat center center;
+    background: url("../Logo/BG_2.jpg") no-repeat;
+    background-position: left center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     position: relative;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-
-}
-
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #E2A518;
-    margin: 10px;
 }
 
 .gradiente {
@@ -209,5 +184,7 @@ header {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
     transition: transform 0.5s, border 0.3s;
 }
+
+
 
 
