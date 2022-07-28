@@ -23,7 +23,7 @@ body {
     height: 100vh;    
     font-family: sans-serif;
     background-color: darkgrey;
-    color: white;
+    color: black;
 }
 
 .main {
@@ -42,7 +42,7 @@ body {
     align-items: center;
     height: 10vh;
     background: rgba(0, 0, 0, 0.5);    
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -184,6 +184,23 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
     transition: transform 0.5s, border 0.3s;
 }
+
+section.serviços {
+    background-color: white;
+}
+
+section.acessibilidade {
+    background-color: gray;
+}
+
+section.sensores {
+    background-color: white;
+}
+
+footer {
+    background-color: gray;
+}
+
 
 
 
